@@ -1,0 +1,547 @@
+# SDmap_path: "/research/map/Navinfo_China_SD_23M3_cv4.2.4.mma"
+SDmap_path: "/research/map/Navinfo_China_SD_2024M5_cv7.2.26.mma"
+# SDmap_path: "/research/map/OSM_China_2024-4-16_cv7.2.17.mma"
+# SDmap_path: "/research/map/OSM_Sweden_2024-11-02_cv7.2.1.mma"
+# SDmap_path: "/research/map/OSM_Paris_2025-1-13_cv7.2.6.mma"
+# HDmap_path: "/research/map/Navinfo_China_HD_23M4_cv4.1.20.mma"
+#2022/11~2023/05
+# sensorfusion_dataset: "/research/fz1a/vccz/output/ZIS_CONFIG1/src-1.49.master.420/victor_agg2681"
+# nibbler_dataset_source: "/research/fz1a/vccz/output/nibbler"
+# oxts_dataset_source: "/research/fz1a/vccz/output/refnav_processing_china"
+#end
+
+#2023/06
+# sensorfusion_dataset: "/research/tongji_project_ws/202306/sensorfusion_dataset_resim"
+# nibbler_dataset_source: "/research/tongji_project_ws/202306/nibbler_dataset"
+# oxts_dataset_source: "/research/tongji_project_ws/202306/oxts_dataset"
+#end
+
+#2023/08~2023/09
+# sensorfusion_dataset: "/research/fz1a/vccz/output/ZIS_CONFIG1/src-1.72.master.682/victor_agg2681"
+
+
+
+# nibbler_dataset: "/research/tongji_project_ws/oxts_dataset/"
+# oxts_dataset: "/research/tongji_project_ws/nibbler_dataset/"
+
+#parse single file(parse)
+seperate_file: false
+
+# sensorfusion_file: "/research/tongji_project_ws/sensorfusion_dataset/20221116T022933_20221116T031426/10489/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/tongji_project_ws/sensorfusion_dataset/20221116T022933_20221116T031426/10489/zen_qm_vision.hdf5"
+# oxts_file: /research/tongji_project_ws/oxts_dataset/20221116T022933_20221116T031426.hdf5
+# log_time_start: [2022,11,16,02,29,33,0]
+# log_time_end: [2022,11,16,03,14,26,0]
+# ------------------------------------------------------------------------------------------------
+# sensorfusion_file: "/research/tongji_project_ws/sensorfusion_dataset/20230327T110640_20230327T112321/10561/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/tongji_project_ws/sensorfusion_dataset/20230327T110640_20230327T112321/10561/zen_qm_vision.hdf5"
+# oxts_file: /research/tongji_project_ws/oxts_dataset/20230327T110640_20230327T112321.hdf5
+# log_time_start: [2023,3,27,11,6,40,0]
+# log_time_end: [2023,3,27,11,23,21,0]
+# ------------------------------------------------------------------------------------------------
+# sensorfusion_file: "/research/tongji_project_ws/sensorfusion_dataset/20230327T114859_20230327T122528/10498/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/tongji_project_ws/sensorfusion_dataset/20230327T114859_20230327T122528/10498/zen_qm_vision.hdf5"
+# oxts_file: /research/tongji_project_ws/oxts_dataset/20230327T114859_20230327T122528.hdf5
+# log_time_start: [2023,03,27,11,48,59,0]
+# log_time_end: [2023,03,27,12,25,28,0]
+# ------------------------------------------------------------------------------------------------
+# sensorfusion_file: "/research/tongji_project_ws/sensorfusion_dataset/20230328T081829_20230328T082151/10513/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/tongji_project_ws/sensorfusion_dataset/20230328T081829_20230328T082151/10513/zen_qm_vision.hdf5"
+# oxts_file: /research/tongji_project_ws/oxts_dataset/20230328T081829_20230328T082151.hdf5
+# log_time_start: [2023,3,28,8,18,29,0]
+# log_time_end: [2023,3,28,8,21,51,0]
+# ------------------------------------------------------------------------------------------------
+# sensorfusion_file: "/research/tongji_project_ws/sensorfusion_dataset/20230406T054759_20230406T061527/10501/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/tongji_project_ws/sensorfusion_dataset/20230406T054759_20230406T061527/10501/zen_qm_vision.hdf5"
+# oxts_file: /research/tongji_project_ws/oxts_dataset/20230406T054759_20230406T061527.hdf5
+# log_time_start: [2023,4,6,5,47,59,0]
+# log_time_end: [2023,4,6,6,15,27,0]
+
+# ----------
+# sensorfusion_file: "/research/data/202402/01T013119/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/data/202402/01T013119/zen_qm_vision.hdf5"
+# sensorfusion_file: "/research/data/202402/01T032815/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/data/202402/01T032815/zen_qm_vision.hdf5"
+# sensorfusion_file: "/research/data/202402/01T060815/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/data/202402/01T060815/zen_qm_vision.hdf5"
+# sensorfusion_file: "/research/data/202402/26T085419/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/data/202402/26T085419/zen_qm_vision.hdf5"
+# sensorfusion_file: "/research/data/202402/27T062256/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/data/202402/27T062256/zen_qm_vision.hdf5"
+# sensorfusion_file: "/research/data/202402/29T063432/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/data/202402/29T063432/zen_qm_vision.hdf5"
+# oxts_file: /research/tongji_project_ws/oxts_dataset/20221116T022933_20221116T031426.hdf5
+
+
+# ------------------------------------------------------------------------------------------------
+#1
+# sensorfusion_file: "/research/data/202407/mule35_agc2366/20240722T024541_20240722T033428/171029/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/data/202407/mule35_agc2366/20240722T024541_20240722T033428/171029/zen_qm_vision.hdf5"
+# oxts_file: /research/data/202407/mule35_agc2366/refnav/22T024200/job-170824/admule_mule35_ohs1462_20240722T024159-20240722T033500.hdf5
+# log_time_start: [2024,7,22,2,45,41,0]
+# log_time_end: [2024,7,22,3,34,28,0]
+
+#2
+# sensorfusion_file: "/research/data/202407/mule35_agc2366/20240722T033731_20240722T040753/171026/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/data/202407/mule35_agc2366/20240722T033731_20240722T040753/171026/zen_qm_vision.hdf5"
+# oxts_file: /research/data/202407/mule35_agc2366/refnav/22T033700/job-170823/admule_mule35_ohs1462_20240722T033700-20240722T040711.hdf5
+# log_time_start: [2024,7,22,3,37,31,0]
+# log_time_end: [2024,7,22,4,7,53,0]
+
+# sensorfusion_file: "/research/data/202407/mule35_agc2366/20240722T050435_20240722T053522/171020/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/data/202407/mule35_agc2366/20240722T050435_20240722T053522/171020/zen_qm_vision.hdf5"
+# oxts_file: /research/data/202407/mule35_agc2366/refnav/22T044924/job-170822/admule_mule35_ohs1462_20240722T044924-20240722T053600.hdf5
+# log_time_start: [2024,7,22,5,4,35,0]
+# log_time_end: [2024,7,22,5,35,22,0]
+
+#4
+# sensorfusion_file: "/research/data/202407/mule35_agc2366/20240722T053825_20240722T054522/171008/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/data/202407/mule35_agc2366/20240722T053825_20240722T054522/171008/zen_qm_vision.hdf5"
+# oxts_file: /research/data/202407/mule35_agc2366/refnav/22T053800/job-170821/admule_mule35_ohs1462_20240722T053800-20240722T054600.hdf5
+# log_time_start: [2024,7,22,5,38,25,0]
+# log_time_end: [2024,7,22,5,45,22,0]
+
+#5
+# sensorfusion_file: "/research/data/202407/mule35_agc2366/20240722T054725_20240722T060810/171005/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/data/202407/mule35_agc2366/20240722T054725_20240722T060810/171005/zen_qm_vision.hdf5"
+# oxts_file: /research/data/202407/mule35_agc2366/refnav/22T054700/job-170820/admule_mule35_ohs1462_20240722T054700-20240722T060749.hdf5
+# log_time_start: [2024,7,22,5,47,25,0]
+# log_time_end: [2024,7,22,6,8,10,0]
+
+#6
+# sensorfusion_file: "/research/data/202407/mule35_agc2366/20240723T022623_20240723T024410/171023/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/data/202407/mule35_agc2366/20240723T022623_20240723T024410/171023/zen_qm_vision.hdf5"
+# oxts_file: /research/data/202407/mule35_agc2366/refnav/23T022251/job-170819/admule_mule35_ohs1462_20240723T022251-20240723T024500.hdf5
+# log_time_start: [2024,7,23,2,26,23,0]
+# log_time_end: [2024,7,23,2,44,10,0]
+
+# sensorfusion_file: "/research/data/202407/mule35_agc2366/20240723T024613_20240723T041910/171011/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/data/202407/mule35_agc2366/20240723T024613_20240723T041910/171011/zen_qm_vision.hdf5"
+# oxts_file: /research/data/202407/mule35_agc2366/refnav/23T024600/job-170818/admule_mule35_ohs1462_20240723T024600-20240723T042000.hdf5
+# log_time_start: [2024,7,23,2,46,13,0]
+# log_time_end: [2024,7,23,4,19,10,0]
+
+# sensorfusion_file: "/research/data/202407/mule35_agc2366/20240723T042113_20240723T042910/171017/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/data/202407/mule35_agc2366/20240723T042113_20240723T042910/171017/zen_qm_vision.hdf5"
+# oxts_file: /research/data/202407/mule35_agc2366/refnav/23T042100/job-170817/admule_mule35_ohs1462_20240723T042100-20240723T043000.hdf5
+# log_time_start: [2024,7,23,4,21,13,0]
+# log_time_end: [2024,7,23,4,29,10,0]
+
+#9
+# sensorfusion_file: "/research/data/202407/mule35_agc2366/20240723T043113_20240723T045022/171014/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/data/202407/mule35_agc2366/20240723T043113_20240723T045022/171014/zen_qm_vision.hdf5"
+# oxts_file: /research/data/202407/mule35_agc2366/refnav/23T043100/job-170816/admule_mule35_ohs1462_20240723T043100-20240723T044929.hdf5
+# log_time_start: [2024,7,23,4,31,13,0]
+# log_time_end: [2024,7,23,4,50,22,0]
+
+
+####test in 1024 for Lv Yao
+
+# sensorfusion_file: "/research/lsm/20240711T012733_20240711T030027/221428/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/lsm/20240711T012733_20240711T030027/221428/zen_qm_vision.hdf5"
+# #oxts_file: /research/data/202407/mule35_agc2366/refnav/23T043100/job-170816/admule_mule35_ohs1462_20240723T043100-20240723T044929.hdf5
+# log_time_start: [2024,7,11,1,27,33,0]
+# log_time_end: [2024,7,11,3,00,27,0]
+
+# sensorfusion_file: "/research/lsm/20240718T012214_20240718T032344/234711/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "/research/lsm/20240718T012214_20240718T032344/234711/zen_qm_vision.hdf5"
+# #oxts_file: "default"
+# log_time_start: [2024,7,18,1,22,14,0]
+# log_time_end: [2024,7,18,3,23,44,0]
+
+# sensorfusion_file: "/research/fz1a/lsm_check/zhichao/20230713T091841_20230713T094251/306295/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: "default"
+# log_time_start: [2023,7,13,9,18,41,0]
+# log_time_end: [2023,7,13,9,42,51,0]
+sensorfusion_file: "/research/fz1a/lsm_check/zhichao/20230414T083003_20230414T093000/308523/zen_qm_sensorfusion_a.hdf5"
+vision_file: "default"
+oxts_file: "default"
+log_time_start: [2023,4,14,8,30,03,0]
+log_time_end: [2023,4,14,9,30,00,0]
+
+
+# ------------------------------------------------------------------------
+### Europe
+
+#1->21
+# sensorfusion_file: "/research/se_dataset/fz1a/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/romeo_djk13u/20220509T080954_20220509T081209/62761284/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000021/oxts.hdf5
+# log_time_start: [2022,5,9,8,9,54,0]
+# log_time_end: [2022,5,9,8,12,9,0]
+
+#2->27
+# sensorfusion_file: "/research/se_dataset/fz1a/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/sierra_xnk19t/20220126T152810_20220126T153052/62761260/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000027/oxts.hdf5
+# log_time_start: [2022,1,26,15,28,10,0]
+# log_time_end: [2022,1,26,15,30,52,0]
+
+#3->22
+# sensorfusion_file: "/research/se_dataset/fz1a/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/sierra_xnk19t/20220503T105657_20220503T105858/62761219/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000022/oxts.hdf5
+# log_time_start: [2022,5,3,10,56,57,0]
+# log_time_end: [2022,5,3,10,58,58,0]
+
+#4->18
+# sensorfusion_file: "/research/se_dataset/fz1a/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/sierra_xnk19t/20220609T115741_20220609T120110/62761312/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000018/oxts.hdf5
+# log_time_start: [2022,6,9,11,57,41,0]
+# log_time_end: [2022,6,9,12,1,10,0]
+
+#5->20
+# sensorfusion_file: "/research/se_dataset/fz1a/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/sierra_xnk19t/20220609T124053_20220609T124327/62761224/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000020/oxts.hdf5
+# log_time_start: [2022,6,9,12,40,53,0]
+# log_time_end: [2022,6,9,12,43,27,0]
+
+#6->28
+# sensorfusion_file: "/research/se_dataset/fz1a/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/uniform_ocn43a/20220407T091251_20220407T091405/62761324/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000028/oxts.hdf5
+# log_time_start: [2022,4,7,9,12,51,0]
+# log_time_end: [2022,4,7,9,14,5,0]
+
+#7->0
+# sensorfusion_file: "/research/se_dataset/fz1a/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/uniform_ocn43a/20220407T093903_20220407T094422/62761331/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000000/oxts.hdf5
+# log_time_start: [2022,4,7,9,39,3,0]
+# log_time_end: [2022,4,7,9,44,22,0]
+
+#8->2
+# sensorfusion_file: "/research/se_dataset/fz1b/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/romeo_djk13u/20230302T073436_20230302T073801/62761353/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000002/oxts.hdf5
+# log_time_start: [2023,3,2,7,34,36,0]
+# log_time_end: [2023,3,2,7,38,1,0]
+
+#9->6
+# sensorfusion_file: "/research/se_dataset/fz1b/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/romeo_djk13u/20230302T073951_20230302T074426/62761319/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000006/oxts.hdf5
+# log_time_start: [2023,3,2,7,39,51,0]
+# log_time_end: [2023,3,2,7,44,26,0]
+
+#10->5
+# sensorfusion_file: "/research/se_dataset/fz1b/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/romeo_djk13u/20230302T074447_20230302T074803/62761274/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000005/oxts.hdf5
+# log_time_start: [2023,3,2,7,44,47,0]
+# log_time_end: [2023,3,2,7,48,3,0]
+
+#11->7
+# sensorfusion_file: "/research/se_dataset/fz1b/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/romeo_djk13u/20230302T074813_20230302T075200/62761293/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000007/oxts.hdf5
+# log_time_start: [2023,3,2,7,48,13,0]
+# log_time_end: [2023,3,2,7,52,0,0]
+
+#12->8
+# sensorfusion_file: "/research/se_dataset/fz1b/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/romeo_djk13u/20230302T075539_20230302T075919/62761255/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000008/oxts.hdf5
+# log_time_start: [2023,3,2,7,55,39,0]
+# log_time_end: [2023,3,2,7,59,19,0]
+
+#13->9
+# sensorfusion_file: "/research/se_dataset/fz1b/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/romeo_djk13u/20230302T075937_20230302T080352/62761304/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000009/oxts.hdf5
+# log_time_start: [2023,3,2,7,59,37,0]
+# log_time_end: [2023,3,2,8,3,52,0]
+
+#14->10
+# sensorfusion_file: "/research/se_dataset/fz1b/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/romeo_djk13u/20230302T080401_20230302T080829/62761338/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000010/oxts.hdf5
+# log_time_start: [2023,3,2,8,4,1,0]
+# log_time_end: [2023,3,2,8,8,29,0]
+
+#15->11
+# sensorfusion_file: "/research/se_dataset/fz1b/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/romeo_djk13u/20230302T080846_20230302T081319/62761300/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000011/oxts.hdf5
+# log_time_start: [2023,3,2,8,8,46,0]
+# log_time_end: [2023,3,2,8,13,19,0]
+
+#16->13
+# sensorfusion_file: "/research/se_dataset/fz1b/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/romeo_djk13u/20230302T081935_20230302T082116/62761248/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000013/oxts.hdf5
+# log_time_start: [2023,3,2,8,19,35,0]
+# log_time_end: [2023,3,2,8,21,16,0]
+
+#17->14
+# sensorfusion_file: "/research/se_dataset/fz1b/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/romeo_djk13u/20230302T082503_20230302T082840/62761279/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000014/oxts.hdf5
+# log_time_start: [2023,3,2,8,25,3,0]
+# log_time_end: [2023,3,2,8,28,40,0]
+
+#18->16
+# sensorfusion_file: "/research/se_dataset/fz1b/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/romeo_djk13u/20230302T083245_20230302T083654/62761267/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000016/oxts.hdf5
+# log_time_start: [2023,3,2,8,32,45,0]
+# log_time_end: [2023,3,2,8,36,54,0]
+
+#19->17
+# sensorfusion_file: "/research/se_dataset/fz1b/vccz/output/ZIS_CONFIG1/1.112.dev7765100655305943828013/romeo_djk13u/20230302T083711_20230302T084101/62761233/zen_qm_sensorfusion_a.hdf5"
+# vision_file: "default"
+# oxts_file: /research/tongji_project_ws/ZOD_dataset_OXTS/oxts/drives/000017/oxts.hdf5
+# log_time_start: [2023,3,2,8,37,11,0]
+# log_time_end: [2023,3,2,8,41,1,0]
+
+
+lane_marker_tracking_file: "/research/tongji_project_ws/src/libmultiLaneTracking/build/"
+
+
+#map matching params
+RESULT_CONFIDENCE_TRHE: 0.1
+TRACE_HISTORY_NUM: 20
+TRACE_INTERVAL: 40 #40/100OXTS
+TRACE_NUM: 20
+PD_LATERAL_STD: 6 #projection distance
+QUERY_DISTANCE: 150
+LANE_QUERY_DISTANCE: 25
+FORK_PREVIEW_DISTANCE: 100
+# TRANS_POSSI_DEFAULT: 0
+ANGLE_POSSI_DEFAULT: 1.0e-4
+ERROR_MEAS_COV: 0.25
+ERROR_PROC_COV: 4
+INTERP_LENGTH: 25
+INTERP_INTERVAL: 5
+INTERP_DELTA_ANGLE_CONDITION: 0.17453 #10degree
+MIN_PROBABILITY_THRESHOLD: 1.0e-5
+MAX_DISTANCE_THRESHOLD: 20
+CONFIDENCE_THRESHOLD: 0.9
+ANGLE_POWER_EXPONENT: 2.5
+USE_RAW_GNSS:  false #false .true is main option
+USE_DELAY: false
+USE_PD_CORRECTION: false
+USE_ROAD_CORRECTION: false
+
+# USE_HOLISTIC_PATH: true
+# USE_LANE_MARKER: true
+# USE_LANE_ICP: true
+ENABLE_PLOT: true
+
+USE_HOLISTIC_PATH: false
+USE_LANE_MARKER: false
+USE_LANE_ICP: false
+# ENABLE_PLOT: false
+
+ENABLE_PLOT_SHOW: false
+ASSOCIATE_LANE_MODE:  false
+
+DECODE_GCJ02: false
+COMPARE_HMM: false
+COMPARE_P2C: false
+COMPARE_AMM: false
+COMPARE_OBDSC: true
+OBDSC_OFFSET: 0
+ZOD_ID: "6"
+AMM_RESULT_PATH: /research/tongji_project_ws/src/AMM/MatchResult/path.csv
+
+
+LANE_PD_LATERAL_STD: 10
+LANE_WIDTH: 3.6
+LANE_FITTING_DEFINITION: 1
+LANE_PREVIEW_DISTANCE: 15
+LANE_PREVIEW_THRESHOLD: 2
+LANE_PREVIEW_MIN: 5
+LANE_PREVIEW_MAX: 50
+LANE_WIDTH_ERROR_TOLERANCE_FACTOR: 0.2 
+LANE_SAMPLE_INTERP: 20
+LANE_PROB_SUM_LIMIT: 0
+LANE_MIN_POINTS: 15
+LANE_EMIS_STD: 2
+
+
+CLOUD_MAP_QUERY_DISTANCE: 150
+ICP_RADIUS: 4
+ICP_TYPE_FACTOR: 5
+ICP_MAX_ITER: 20
+ICP_EPSILON: 0.001
+ICP_EARLY_STOP: 0.1
+ICP_CONVERGE: 1.5
+ICP_MIN_POINTS: 100
+ICP_MIN_MATCH_RATIO: 0.3
+ICP_MATCH_DIS: 1
+ICP_MATCH_NUM: 55
+ICP_HEADING_LIMIT: 5
+ICP_CLOUD_PREVIEW: 50
+
+
+
+
+VISION_TRANS_DISCOUT_FACTOR: 0.5
+
+
+
+DEBUG_TIME: [10041]
+
+# #log1 error
+# hdf_start: 0.55
+# hdf_end: 0.72
+
+#log2 error
+# hdf_start: 0.41
+# hdf_end: 0.46
+
+
+#log2407220245 error 0.3406218 0.55175948 0.83498463
+# hdf_start: 0.3
+# hdf_end: 0.35
+# hdf_start: 0.5
+# hdf_end: 0.6
+# hdf_start: 0.8
+# hdf_end: 0.85
+
+#log2407220337 error 12 0.090010977 0.30570801 0.37211855 0.41657519 0.60428101 0.60482986 0.6273326 0.64763996 0.78979144 0.79088913 0.88144896 0.88419319
+# hdf_start: 0.05
+# hdf_end: 0.12
+# hdf_start: 0.28
+# hdf_end: 0.45
+# hdf_start: 0.57
+# hdf_end: 0.68
+# hdf_start: 0.75
+# hdf_end: 0.9
+
+#log2407220504 error 9 0.23064429 0.3010287 0.30427721 0.41743368 0.42663779 0.52571738 0.62696264 0.84244721 0.84407147
+# hdf_start: 0.2
+# hdf_end: 0.32
+# hdf_start: 0.4
+# hdf_end: 0.65
+# hdf_start: 0.8
+# hdf_end: 0.86
+
+#log2407220538 error 1 0.61151079
+# hdf_start: 0.58
+# hdf_end: 0.63
+
+ 
+#log2407220547 error 6 0.089959839 0.14618474 0.17108434 0.46184739 0.92771084 0.97028112
+# hdf_start: 0
+# hdf_end: 0.11
+# hdf_start: 0.64
+# hdf_end: 0.68
+# hdf_start: 0.88
+# hdf_end: 0.92
+
+# hdf_start: 0.11
+# hdf_end: 0.22
+# hdf_start: 0.22
+# hdf_end: 0.33
+# hdf_start: 0.33
+# hdf_end: 0.43
+# hdf_start: 0.43
+# hdf_end: 0.53
+# hdf_start: 0.53
+# hdf_end: 0.64
+# hdf_start: 0.68
+# hdf_end: 0.78
+# hdf_start: 0.78
+# hdf_end: 0.88
+# hdf_start: 0.92
+# hdf_end: 1
+
+
+#log2407230226 error 2 0.23055295 0.64386129
+# hdf_start: 0.21
+# hdf_end: 0.25
+# hdf_start: 0.62
+# hdf_end: 0.66
+
+#log2407230246 error 20 0.010220549 0.28223059 0.28868567 0.33405056 0.35520889 0.3575399 0.43984221 0.47749686 0.48305541 0.51317913 0.57916443 0.64102564 0.65859781 0.76743769 0.8678501 0.88309127 0.88327058 0.92666308 0.9408284 0.94208356
+# hdf_start: 0
+# hdf_end: 0.03
+# hdf_start: 0.26
+# hdf_end: 0.37
+# hdf_start: 0.42
+# hdf_end: 0.52
+# hdf_start: 0.57
+# hdf_end: 0.67
+# hdf_start: 0.75
+# hdf_end: 0.78
+# hdf_start: 0.85
+# hdf_end: 0.95
+
+#log2407230421 error 2 0.062893082 0.077568134
+# hdf_start: 0.04
+# hdf_end: 0.09
+
+#log2407230431 error 6 0.050478677 0.13228895 0.14099217 0.3794604 0.49434291 0.69625762
+# hdf_start: 0
+# hdf_end: 0.11
+# hdf_start: 0.64
+# hdf_end: 0.68
+# hdf_start: 0.88
+# hdf_end: 0.92
+# hdf_start: 0.11
+# hdf_end: 0.22
+# hdf_start: 0.22
+# hdf_end: 0.33
+# hdf_start: 0.33
+# hdf_end: 0.43
+# hdf_start: 0.43
+# hdf_end: 0.53
+# hdf_start: 0.53
+# hdf_end: 0.64
+# hdf_start: 0.68
+# hdf_end: 0.78
+# hdf_start: 0.78
+# hdf_end: 0.88
+# hdf_start: 0.92
+# hdf_end: 1
+
+#log test for Lv Yao
+# hdf_start: 0
+# hdf_end: 0.02
+# hdf_start: 0.11
+# hdf_end: 0.122
+# hdf_start: 0.15
+# hdf_end: 0.16
+# hdf_start: 0.19
+# hdf_end: 0.195
+# hdf_start: 0.265
+# hdf_end: 0.275
+# hdf_start: 0.6
+# hdf_end: 0.61
+# hdf_start: 0.695
+# hdf_end: 0.705
+# hdf_start: 0.75
+# hdf_end: 0.765
+# hdf_start: 0.88
+# hdf_end: 0.89
+# hdf_start: 0.94
+# hdf_end: 0.955
+
+hdf_start: 0
+hdf_end: 1
+
+# hdf_start: 0
+# hdf_end: 0.1
+# hdf_start: 0.1
+# hdf_end: 0.2
+# hdf_start: 0.2
+# hdf_end: 0.3
+# hdf_start: 0.3
+# hdf_end: 0.4
+# hdf_start: 0.4
+# hdf_end: 0.5
+# hdf_start: 0.5
+# hdf_end: 0.6
+# hdf_start: 0.6
+# hdf_end: 0.7
+# hdf_start: 0.7
+# hdf_end: 0.8
+# hdf_start: 0.8
+# hdf_end: 0.9
+# hdf_start: 0.9
+# hdf_end: 1
