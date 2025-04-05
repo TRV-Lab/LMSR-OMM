@@ -659,7 +659,7 @@ void TraceNode::calAngleEmisPsb(TraceNode &trace_node,double ANGLE_POWER_EXPONEN
 }
 
 /*TODO:Keep last matching road if not enough confident*/
-void HMM_MADMAP::Viterbi(std::deque<TraceNode> &trace,bool USE_LANE_MARKER,bool COMPARE_HMM,bool COMPARE_P2C,bool COMPARE_OBDSC,double CONFIDENCE_THRESHOLD)
+void HMM_MADMAP::Viterbi(std::deque<TraceNode> &trace,bool USE_LANE_MARKER,bool COMPARE_P2C,bool COMPARE_OBDSC,double CONFIDENCE_THRESHOLD)
 {
 
 
@@ -681,10 +681,7 @@ void HMM_MADMAP::Viterbi(std::deque<TraceNode> &trace,bool USE_LANE_MARKER,bool 
                 // {
                 //     possibility*=trace.back().hpEmisPsb[road_i.first];
                 // }
-                if(COMPARE_HMM)
-                {
-                    possibility/=trace.back().angleEmisPsb[road_i.first];
-                }
+
                 if(COMPARE_P2C)
                 {
                     possibility=trace.back().distanceEmisPsb[road_i.first];
@@ -727,10 +724,7 @@ void HMM_MADMAP::Viterbi(std::deque<TraceNode> &trace,bool USE_LANE_MARKER,bool 
                 // {
                 //     possibility*=trace.back().hpEmisPsb[road_i.first];
                 // }
-                if(COMPARE_HMM)
-                {
-                    possibility/=trace.back().angleEmisPsb[road_i.first];
-                }
+
                 if(COMPARE_P2C)
                 {
                     possibility=trace.back().distanceEmisPsb[road_i.first];

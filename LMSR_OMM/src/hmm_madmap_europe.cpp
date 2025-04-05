@@ -823,7 +823,7 @@ void HMM_MADMAP::stateMachine(mad::MadMapStandard &madmapSD,std::deque<TraceNode
             }
         }
     }
-    else if((!(COMPARE_P2C||COMPARE_HMM))&&trace.back().candidate_roads[Pback[0].first].end_node.size()>0){
+    else if((!COMPARE_P2C)&&trace.back().candidate_roads[Pback[0].first].end_node.size()>0){
         //change to biggest prob fork road if not nearst
         mm_output=Pback[0].first;
         
@@ -1087,7 +1087,7 @@ void HMM_MADMAP::mapMatch(mad::MadMapStandard &madmapSD,std::deque<TraceNode>& t
 
 
 
-    HMM_MADMAP::Viterbi(trace,USE_LANE_MARKER,COMPARE_HMM,COMPARE_P2C,COMPARE_OBDSC,CONFIDENCE_THRESHOLD);     //计算结果
+    HMM_MADMAP::Viterbi(trace,USE_LANE_MARKER,COMPARE_P2C,COMPARE_OBDSC,CONFIDENCE_THRESHOLD);     //计算结果
     HMM_MADMAP::holisticPath(trace);
     if(trace.back().sorted_joint_prob.size()>0) trace.back().confidence=trace.back().sorted_joint_prob[0].second.first;
 
@@ -1197,9 +1197,7 @@ int main()
     hmm.ICP_HEADING_LIMIT=config["ICP_HEADING_LIMIT"].as<double>();
     hmm.ICP_CLOUD_PREVIEW=config["ICP_CLOUD_PREVIEW"].as<double>();
     hmm.ASSOCIATE_LANE_MODE=config["ASSOCIATE_LANE_MODE"].as<bool>();
-    hmm.COMPARE_HMM=config["COMPARE_HMM"].as<bool>();
     hmm.COMPARE_P2C=config["COMPARE_P2C"].as<bool>();
-    hmm.COMPARE_AMM=config["COMPARE_AMM"].as<bool>();
     hmm.COMPARE_OBDSC=config["COMPARE_OBDSC"].as<bool>();
     hmm.OBDSC_OFFSET=config["OBDSC_OFFSET"].as<int>();
     hmm.ZOD_ID=config["ZOD_ID"].as<std::string>();
@@ -1292,41 +1290,6 @@ int main()
             return 1;
         }
     }
-    if(hmm.COMPARE_AMM)
-    {
-        hmm.ASSOCIATE_LANE_MODE=false;
-        hmm.USE_LANE_MARKER=false;
-        hmm.USE_LANE_ICP=false;
-        hmm.USE_HOLISTIC_PATH=false;
-        hmm.COMPARE_P2C=true;
-
-
-        std::ifstream file(hmm.AMM_RESULT_PATH);
-        std::string line;
-        std::getline(file, line);
-        bool first=true;
-        double last_lat,last_lon;
-        while (std::getline(file, line)) {
-            std::vector<std::string> fields = split(line, ',');
-            double lat = std::stod(fields[0]);
-            double lon = std::stod(fields[1]);
-            TraceNode node{lat,lon};
-            node.time=10000+std::stod(fields[2]);
-            node.corrected_pos.lat=node.lat;
-            node.corrected_pos.lon=node.lon;
-            hmm.trace.push_back(node);
-            if(first)
-            {
-                first=false;
-            }
-            else{
-                hmm.travel_length+=TraceNode::RealDistance(last_lat,last_lon,lat,lon);
-            }
-            last_lat=lat;
-            last_lon=lon;
-            hmm.mapMatch(hmm.madmapSD,hmm.trace,hmm.kf,hmm.QUERY_DISTANCE,hmm.PD_LATERAL_STD);
-        }
-
         file.close();
         // for(size_t i=cxx_psd.getLength()*hdf_start;i<cxx_psd.getLength()*hdf_end;i+=hmm.TRACE_INTERVAL)
         // {

@@ -270,7 +270,7 @@ public:
     static void updateMM(std::deque<TraceNode> &trace,bool skip_current);
     void fileOut(TraceNode& trace_node);
     static mad::MapObjectId multiHypoStrategy(mad::MadMapStandard &madmapSD,TraceNode& trace_node,mad::MapObjectId last_mm,std::ofstream& hp_out,double ANGLE_POWER_EXPONENT,double MIN_PROBABILITY_THRESHOLD);
-    static void Viterbi(std::deque<TraceNode> &trace,bool USE_LANE_MARKER,bool COMPARE_HMM,bool COMPARE_P2C,bool COMPARE_OBDSC,double CONFIDENCE_THRESHOLD);
+    static void Viterbi(std::deque<TraceNode> &trace,bool USE_LANE_MARKER,bool COMPARE_P2C,bool COMPARE_OBDSC,double CONFIDENCE_THRESHOLD);
     static void Viterbi(TraceNode&trace_node,TraceNode& last_trace_node,bool USE_LANE_MARKER);
 
     static void Viterbi_HP(TraceNode& trace_node,int& num_valid_hp,double MIN_PROBABILITY_THRESHOLD);
@@ -398,9 +398,7 @@ public:
     double ICP_CLOUD_PREVIEW;
     double VISION_TRANS_DISCOUT_FACTOR;
     bool ASSOCIATE_LANE_MODE;
-    bool COMPARE_HMM;
     bool COMPARE_P2C;
-    bool COMPARE_AMM;
     bool COMPARE_OBDSC;
     bool DECODE_GCJ02;
     std::string AMM_RESULT_PATH;
