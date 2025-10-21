@@ -21,9 +21,9 @@ Ablation studies confirm the critical role of lane marking ($P_L$​) and scenar
 #### DEMO1：
 ![ demo1](doc/1.mp4) 
 #### DEMO2：
-![ demo1](doc/2.mp4) 
+![ demo2](doc/2.mp4) 
 #### DEMO3：
-![ demo1](doc/3.mp4) 
+![ demo3](doc/3.mp4) 
 
 ## II. Installation and Configuration
 ### Environment Requirements
